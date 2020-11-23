@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProprietaireServlet</servlet-name>
+  	<display-name>ProprietaireServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.ProprietaireServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GardeurServlet</servlet-name>
+  	<display-name>GardeurServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.GardeurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProprietaireServlet</servlet-name>
+  	<url-pattern>/ProprietaireServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GardeurServlet</servlet-name>
+  	<url-pattern>/GardeurServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
